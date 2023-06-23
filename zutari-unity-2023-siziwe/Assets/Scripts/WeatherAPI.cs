@@ -11,9 +11,9 @@ public class WeatherAPI : MonoBehaviour
     public Text temperatureText;
     public Text descriptionText;
 
-    private string apiKey = "51b4da4c515478f4f5de608451806962";
-    private List<string> capitalCities = new List<string> { "Johannesburg", "Cape Town", "Pretoria", "Durban", "Bloemfontein", "Nelspruit", "Kimberley", "Mahikeng", "Polokwane" };
-    private Dictionary<string, WeatherData> weatherDataMap = new Dictionary<string, WeatherData>();
+    private string apiKey = "51b4da4c515478f4f5de608451806962"; // API Key 
+    private List<string> capitalCities = new List<string> { "Johannesburg", "Cape Town", "Pretoria", "Durban", "Bloemfontein", "Nelspruit", "Kimberley", "Mahikeng", "Polokwane" }; //9 cities
+    private Dictionary<string, WeatherData> weatherDataMap = new Dictionary<string, WeatherData>(); //Stores each cities data
 
     private void Start()
     {
@@ -32,7 +32,7 @@ public class WeatherAPI : MonoBehaviour
         {
             WeatherData weatherData = weatherDataMap[city];
             UpdateWeatherUI(weatherData);
-            //yield return new WaitForSeconds(0.5f); // Optional delay between displaying each city's weather data
+            
         }
     }
 
