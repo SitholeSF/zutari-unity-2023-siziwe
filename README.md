@@ -24,8 +24,9 @@
 - Click A to see a blue cube moving left
 - Click D to see a pink cube moving right
 - Click W to see a orange cube moving up
-- Click S to see a yellow cube moving down
-- On the WeatherAPP scene, click play to see different cities with weather description and current temperature
+- Click S to see a yellow cube moving d
+
+ On the WeatherAPP scene, click play to see different cities with weather description and current temperature
 
 ## API
 
