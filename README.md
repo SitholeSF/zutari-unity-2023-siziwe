@@ -19,7 +19,7 @@
 
 ## Usage
 
--Click on the UI button to load LevelOne scene
+-Click on the UI button on the Main Menu to load LevelOne scene
 - Use the WASD keys to move the cube (W is up, A is left, S is down, and D is right) .
 - Click A to see a blue cube moving left
 - Click D to see a pink cube moving right
